@@ -1,0 +1,58 @@
+h1 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(244,79,79);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 25px;
+    border-bottom: dotted 3px rgb(236, 122, 122);
+}
+
+h2::before {
+    content: "●";
+    color: rgb(239,111,139);
+}
+
+main {
+    margin: 10px;
+}
+
+#parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contents {
+    border: solid 3px rgb(238,204,204);
+    flex-basis: 25%;
+    padding: 10px 15px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+div p:nth-of-type(3)::first-letter {
+    color: rgb(97, 206, 249);
+    font-weight: bold;
+}
